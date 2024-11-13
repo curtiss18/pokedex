@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getFullPokedexNumber, getPokedexNumber } from "../utils"
 import TypeCard from "./TypeCard"
-import Modal from "./modal"
+import Modal from "./Modal"
 
 export default function PokeCard(props) {
     const { selectedPokemon } = props
