@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 function App() {
   const [selectedPokemon, setSelectedPokemon] = useState(0)
-  const [showSideMenu, setShowSideMenu] = useState(false)
+  const [showSideMenu, setShowSideMenu] = useState(true)
 
   function handleToggleMenu() {
     setShowSideMenu(!showSideMenu)
