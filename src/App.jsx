@@ -1,4 +1,4 @@
-import Header from './components/header'
+import Header from './components/Header'
 import SideNav from './components/SideNav'
 import PokeCard from './components/PokeCard'
 
